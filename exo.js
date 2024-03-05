@@ -1,4 +1,4 @@
-1. Trouver tous les documents dans la collection "employees".
+`1. Trouver tous les documents dans la collection "employees".
    db.employees.find({})
 
 2. Trouver tous les documents où l'âge est supérieur à 33.
@@ -60,4 +60,4 @@ Exercice 14
 db.salles.updateMany({}, { $inc: { capacite: 100 } })
 
 Exercice 15
-db.salles.updateMany({ styles: { $ne: "jazz" } }, { $push: { styles: "jazz" } })
+db.salles.updateMany({ styles: { $ne: "jazz" } }, { $push: { styles: "jazz" } })`
